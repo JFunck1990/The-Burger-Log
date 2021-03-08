@@ -15,7 +15,7 @@
         <div class="card-text">
           {{#each burgers}}
             {{#unless devoured}}
-              {{> burgers/burger-block devoured=true}}
+              {{> partials/burger-block devoured=true}}
             {{/unless}}
           {{/each}}
         </div>
@@ -27,13 +27,13 @@
         <div class="card-text">
           {{#each burgers}}
             {{#if devoured}}
-              {{> burgers/burger-block devoured=false}}
+              {{> partials/burger-block devoured=false}}
             {{/if}}
           {{/each}}
         </div>
       </div>
     </div>
-    <div class="card border-0 rounded-0 mb-3 mx-4 id="options"">
+    <div class="card border-0 rounded-0 mb-3 mx-4" id="create-form">
       <h2 class="card-header text-center">Place An Order</h2>
       <div class="card-body">
         <div class="card-text">
