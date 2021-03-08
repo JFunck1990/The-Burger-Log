@@ -46,7 +46,7 @@ node server.js
 * inquirer
 * uuid (gives each note a unique id)
 
-<img src="/assets/images/bur.png">
+<img src="public/assets/image/bur.png">
 
 <a name="video"></a>
 # Video of how it works.
