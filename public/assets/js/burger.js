@@ -5,18 +5,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
     // UPDATE
-    const changeSleepBtns = document.querySelectorAll('.change-devoured');
+    const changeDevBtns = document.querySelectorAll('.change-devoured');
 
     // Set up the event listener for the create button
-    if (changeSleepBtns) {
-      changeSleepBtns.forEach((button) => {
+    if (changeDevBtns) {
+      changeDevBtns.forEach((button) => {
         button.addEventListener('click', (e) => {
           // Grabs the id of the element that goes by the name, "id"
           const id = e.target.getAttribute('data-id');
-          const newSleep = e.target.getAttribute('data-newsleep');
+          const newdevour = e.target.getAttribute('data-newsleep');
 
-          const newSleepState = {
-            sleepy: newSleep,
+          const newDevour = {
+            devoured: newDevour,
           };
 
           fetch(`/api/cats/${id}`, {

@@ -5,9 +5,10 @@
 			{{burger_name}}
 		</div>
 		<div class="col-md-3 col-3">
-			<button class="change-devour btn btn-outline-secondary rounded-0" data-id="{{id}}" data-newdevour="{{devoured}}">
+			<button class="change-devoured btn btn-outline-secondary rounded-0" data-id="{{id}}" data-newdevour="{{devoured}}">
 				{{#if devoured}}Devour It!{{else}}Reorder it!{{/if}}
 			</button>
+			<button class="delete-devoured btn btn-outline-secondary rounded-0" data-id="{{this.id}}">Delete</button>
 		</div>
 	</div>
 </div>
