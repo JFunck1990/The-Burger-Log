@@ -1,0 +1,67 @@
+.card-header {
+	font-size: 2rem;
+	background-color: #ef6c00;
+	font-family: 'Skranji', cursive;
+
+}
+
+h1 {
+	color: #3C2B1B;
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+h3 {
+	font-size: 2rem;
+	color: #c4beb8;
+}
+
+h2 {
+	color: #3C2B1B;
+}
+
+.card-body {
+	background-color: #e2e1e0;
+	/*background-color: rgba(226, 225, 224, 0.1);*/
+	/*filter: alpha(opacity=10);*/
+	/*opacity: 0.5;*/
+}
+
+.card-text {
+	font-size: 17px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.col-4 img {
+	padding-left: 50px;
+}
+
+.jumbotron {
+	height: 100%;
+	margin-left: 20px;
+}
+
+#options {
+	margin: 10px 50px 10px 50px !important;
+}
+
+footer {
+	background-color: #3C2B1B;
+	color: #ccc9c9;
+	/*height: 70px;*/
+	font-size: 13px;
+}
+
+.btn-outline-secondary {
+	padding: 4px;
+	background-color: white;
+	font-size: 15px;
+}
+
+.card {
+	width: 365px;
+}
+
+.burger-div {
+	padding-bottom: 7px;
+}
