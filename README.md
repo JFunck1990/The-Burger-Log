@@ -46,19 +46,17 @@ node server.js
 * express-handlebars
 * orm
 
-<img src="public/assets/image/bur.png">
+
 
 <a name="video"></a>
 # Video of how it works.
 > If you click GIF you will be navigated to YouTube for a full-video.
 
-[![Note Taker](https://media.giphy.com/media/EUhCh1QqkLfBQqvfXc/giphy.gif)](https://youtu.be/f-eAdCKbS6o)
+[![Note Taker](https://media.giphy.com/media/VizPEjiPYmJUnuZfUh/giphy.gif)](https://youtu.be/Rxt_xdiYwHM)
 
 
 
 <a name="sc"></a>
 # Screen Shots
 ### Home
-<img src="Images/noteHome.png">
-### Notes
-<img src="Images/noteNotes.png">
+<img src="public/assets/image/bur.png">
