@@ -43,8 +43,8 @@ node server.js
 # Dependencies
 * Mysql
 * express
-* inquirer
-* uuid (gives each note a unique id)
+* express-handlebars
+* orm
 
 <img src="public/assets/image/bur.png">
 
