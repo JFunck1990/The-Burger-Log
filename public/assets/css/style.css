@@ -1,28 +1,28 @@
 .card-header {
 	font-size: 2rem;
-	background-color: #ef6c00;
+	background-color: #1310c7;
 	font-family: 'Skranji', cursive;
 
 }
 
 h1 {
-	color: #3C2B1B;
+	color: #d36a09;
 	font-weight: bold;
 	font-size: 4rem;
 }
 
 h3 {
 	font-size: 2rem;
-	color: #c4beb8;
+	color: #11aac5;
 }
 
 h2 {
-	color: #3C2B1B;
+	color: #08b481;
 }
 
 .card-body {
 	background-color: #e2e1e0;
-	
+
 }
 
 .card-text {
