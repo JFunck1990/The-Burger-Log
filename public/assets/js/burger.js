@@ -13,10 +13,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         button.addEventListener('click', (e) => {
           // Grabs the id of the element that goes by the name, "id"
           const id = e.target.getAttribute('data-id');
-          const newdevour = e.target.getAttribute('data-newsdevour');
+          const newdevour = e.target.getAttribute('data-newdevour');
 
           const newDevourState = {
-            devoured: newDevour,
+            devoured: newdevour,
           };
 
           fetch(`/api/burgers/${id}`, {
