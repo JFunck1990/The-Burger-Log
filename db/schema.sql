@@ -6,7 +6,7 @@ use burgers_db;
 
 create table burgers (
 id int not null auto_increment,
-burger_name varchar(250) not null,
+burger_name varchar(250),
 devoured boolean default false,
 primary key(id)
 );
