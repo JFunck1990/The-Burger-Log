@@ -13,7 +13,7 @@ by: Jack Funck
 
 <a name="link"></a>
 ## Link
-give it a try: <a href="https://the-burger-logger.herokuapp.com/" target="_blank">The-Burger-Logger</a>
+give it a try: <a href="https://the-burger-logger.herokuapp.com" target="_blank">The-Burger-Logger</a>
 
 <a name="desc"></a>
 ## Description
