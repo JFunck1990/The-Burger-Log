@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         // Grabs the value of the textarea that goes by the name, "quote"
         const newBurger = {
-          name: document.getElementById('bu').value.trim(),
+          burger_name: document.getElementById('bu').value.trim(),
           devoured: false,
         };
 
